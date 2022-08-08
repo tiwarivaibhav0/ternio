@@ -1,0 +1,84 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background: url("http://ww1.prweb.com/prfiles/2018/11/21/15943847/Ternio%20header.jpg");
+  background-size: cover;
+  background-color: #02122B;
+  min-height: 50vw;
+  width: 100vw;
+  position: relative;
+ display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.logos{
+  width: 10vw;
+}
+.oneat{
+  color: #5d7fb6;
+  font-size: 1.6vw;
+  font-weight: bold;
+  margin: 0px 0px;
+}
+.oneat2{
+  color: #02122B;
+  font-size: 3.2vw;
+  font-weight: bold;
+  margin: 10px 0px;
+}
+.blocks{
+  display: flex;
+  flex-direction: row;
+}
+.block{
+  margin: 20px 20px;
+  border: 1px solid rgb(189, 184, 184);
+  border-radius: 10px;
+  padding: 10px;
+}
+.blockimg{
+  width: 16vw;
+}
+.blockhead{
+  font-size: 2vw;
+}
+.blockpara{
+  font-size: 1.5vw;
+}
+
+@media screen and (max-width:700px) {
+  .blocks{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .blockpara{
+    font-size: 1.2vw;
+  }
+}
